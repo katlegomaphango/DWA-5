@@ -20,21 +20,21 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 ##### Unresolved Stories I have to resolve
 
-- [] Scenario: Dividing numbers result in a decimal number
+- [ ] Scenario: Dividing numbers result in a decimal number
 
 - GIVEN that the submit button is pressed
 - WHEN 20 is entered into the first input
 - AND 3 is entered into the second input
 - THEN the number 6 with no decimal should be shown
 
-- [] Scenario: Validation when values are missing
+- [ ] Scenario: Validation when values are missing
 
 - GIVEN that the submit button is pressed
 - WHEN either or both inputs are empty
 - THEN the divisions should not be done
 - AND the following should be displayed: “Division not performed. Both values are required in inputs. Try again”.
 
-- [] Scenario: An invalid division should log an error in the console
+- [ ] Scenario: An invalid division should log an error in the console
 
 - GIVEN that the submit button is pressed
 - WHEN 20 is entered into the first input
@@ -44,7 +44,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 - AND an error should be logged in the browser console that shows the call stack
 - BUT the program should not crash entirely
 
-- [] Scenario: Providing anything that is not a number should crash the program
+- [ ] Scenario: Providing anything that is not a number should crash the program
 
 - GIVEN that the submit button is pressed
 - WHEN ‘YOLO’ is entered into the first input
