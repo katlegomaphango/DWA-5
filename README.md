@@ -21,6 +21,8 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 - AND 10 is entered into the second input
 - THEN 2 should be displayed at the bottom
 
+<br >
+
 #### Unresolved Stories I have to resolve
 
 - [ ] Scenario: Dividing numbers result in a decimal number
