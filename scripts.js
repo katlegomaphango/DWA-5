@@ -19,11 +19,16 @@ form.addEventListener("submit", (event) => {
 
     const dividendNum = parseInt(dividend.toString())
     const dividerNum = parseInt(divider.toString())
+
+    console.log(dividendNum, typeof dividendNum)
     
-    if (dividerNum <= 0) {
+    if (isNaN(dividendNum) || isNaN(dividerNum)) {
+        console.log("NAN")
+        document.body.textContent = 'Something critical went wrong. Please reload the page'
+    } else if (dividerNum <= 0) {
         result.textContent = 'Division not performed. Invalid number provided. Try again'
-        console.trace()
-    } else {
+        // console.log(dividendNum / dividerNum)
+    }else {
         result.textContent = Math.floor(dividendNum / dividerNum).toString();
     }
 });
