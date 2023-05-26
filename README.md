@@ -5,7 +5,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 ##### Resolved Stories
 
-[x] Scenario 1: Starting program state
+- [x] Scenario 1: Starting program state
 
 - GIVEN that the submit button has not been pressed yet
 - AND the code has just loaded
