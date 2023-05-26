@@ -4,6 +4,8 @@
 This exercise provides user stories in the [Gherkin syntax](https://docs.behat.org/en/v2.5/guides/1.gherkin.html).
 Given the HTML and JavaScript code for a “Whole Number Divider”. At the moment it only meets two user stories (see below under “Resolved Stories”). Please ensure that it meets all user stories listed below: 
 
+***
+
 #### Resolved Stories
 
 - [x] Scenario 1: Starting program state
