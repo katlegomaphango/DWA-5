@@ -31,7 +31,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 - WHEN 20 is entered into the first input
 - AND 3 is entered into the second input
 - THEN the number 6 with no decimal should be shown\ 
-<br >
+<br />
 - [ ] Scenario: Validation when values are missing
 
 - GIVEN that the submit button is pressed
