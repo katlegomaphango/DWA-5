@@ -27,7 +27,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 #### Unresolved Stories I have to resolve
 
-- [ ] Scenario: Dividing numbers result in a decimal number
+- [x] Scenario: Dividing numbers result in a decimal number
 
 - GIVEN that the submit button is pressed
 - WHEN 20 is entered into the first input
@@ -36,7 +36,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 
 
-- [ ] Scenario: Validation when values are missing
+- [x] Scenario: Validation when values are missing
 
 - GIVEN that the submit button is pressed
 - WHEN either or both inputs are empty
@@ -45,7 +45,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 
 
-- [ ] Scenario: An invalid division should log an error in the console
+- [x] Scenario: An invalid division should log an error in the console
 
 - GIVEN that the submit button is pressed
 - WHEN 20 is entered into the first input
@@ -57,7 +57,7 @@ Given the HTML and JavaScript code for a “Whole Number Divider”. At the mome
 
 
 
-- [ ] Scenario: Providing anything that is not a number should crash the program
+- [x] Scenario: Providing anything that is not a number should crash the program
 
 - GIVEN that the submit button is pressed
 - WHEN ‘YOLO’ is entered into the first input
